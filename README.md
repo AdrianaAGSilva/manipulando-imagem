@@ -9,9 +9,9 @@ Script em Python que converte uma imagem colorida para escala de cinza (preto e 
 
 ## Como funciona
 
-1. Abre uma imagem colorida (`flor.jpg`)
+1. Abre uma imagem colorida
 2. Converte para escala de cinza com `.convert('L')`
-3. Salva o resultado em um novo arquivo (`bw_flor.jpg`)
+3. Salva o resultado em um novo arquivo
 4. Exibe a imagem convertida na tela
 
 ## Como rodar
@@ -20,3 +20,5 @@ Script em Python que converte uma imagem colorida para escala de cinza (preto e 
 pip install Pillow
 python manipulando_imagem.py
 ```
+
+> **Nota:** este projeto não inclui uma imagem de exemplo. Antes de rodar, substitua `"flor.jpg"` no código pelo caminho de uma imagem sua (ex: `"minha_foto.jpg"`), colocando o arquivo na mesma pasta do script.
